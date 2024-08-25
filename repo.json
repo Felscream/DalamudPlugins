@@ -1,0 +1,28 @@
+[
+    {
+        "Author":  "Felscream",
+        "Name":  "DragoonMayCry",
+        "Punchline":  "A plugin that ranks your performance based on your fundamentals in combat",
+        "Description":  "??",
+        "ApplicableVersion":  "any",
+        "LoadPriority":  0,
+        "InternalName":  "DragoonMayCry",
+        "AssemblyVersion":  "1.6.6",
+        "RepoUrl":  "https://github.com/Felscream/DragoonMayCry",
+        "Tags":  [
+                     "dmc",
+                     "style",
+                     "dragoon",
+                     "combo",
+                     "cry"
+                 ],
+        "DalamudApiLevel":  10,
+        "IsHide":  "False",
+        "IsTestingExclusive":  "False",
+        "LastUpdated":  1724626728,
+        "DownloadCount":  1,
+        "DownloadLinkInstall":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.2/DragoonMayCry.zip",
+        "DownloadLinkTesting":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.2/DragoonMayCry.zip",
+        "DownloadLinkUpdate":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.2/DragoonMayCry.zip"
+    }
+]
