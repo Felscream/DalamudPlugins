@@ -7,7 +7,7 @@
         "ApplicableVersion":  "any",
         "LoadPriority":  0,
         "InternalName":  "DragoonMayCry",
-        "AssemblyVersion":  "1.6.6",
+        "AssemblyVersion":  "0.0.1",
         "RepoUrl":  "https://github.com/Felscream/DragoonMayCry",
         "Tags":  [
                      "dmc",
@@ -19,10 +19,10 @@
         "DalamudApiLevel":  10,
         "IsHide":  "False",
         "IsTestingExclusive":  "False",
-        "LastUpdated":  1724626728,
-        "DownloadCount":  1,
-        "DownloadLinkInstall":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.2/DragoonMayCry.zip",
-        "DownloadLinkTesting":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.2/DragoonMayCry.zip",
-        "DownloadLinkUpdate":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.2/DragoonMayCry.zip"
+        "LastUpdated":  1724629048,
+        "DownloadCount":  0,
+        "DownloadLinkInstall":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.1/DragoonMayCry.zip",
+        "DownloadLinkTesting":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.1/DragoonMayCry.zip",
+        "DownloadLinkUpdate":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.1/DragoonMayCry.zip"
     }
 ]
