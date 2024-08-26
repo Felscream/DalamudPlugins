@@ -3,26 +3,27 @@
         "Author":  "Felscream",
         "Name":  "DragoonMayCry",
         "Punchline":  "A plugin that ranks your performance based on your fundamentals in combat",
-        "Description":  "A plugin that tries to add more flavour to combat. You score by dealing damage, and lose points if you are not greeding",
+        "Description":  "A plugin that tries to add more flavour to combat. You score by dealing damage, and lose points if you are not greeding correctly",
         "ApplicableVersion":  "any",
         "LoadPriority":  0,
         "InternalName":  "DragoonMayCry",
-        "AssemblyVersion":  "0.0.3",
+        "AssemblyVersion":  "0.0.5",
         "RepoUrl":  "https://github.com/Felscream/DragoonMayCry",
         "Tags":  [
                      "dmc",
                      "style",
                      "dragoon",
                      "combo",
-                     "cry"
+                     "cry",
+                     "greed"
                  ],
         "DalamudApiLevel":  10,
         "IsHide":  "False",
         "IsTestingExclusive":  "False",
-        "LastUpdated":  1724707777,
+        "LastUpdated":  1724722184,
         "DownloadCount":  0,
-        "DownloadLinkInstall":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.3/DragoonMayCry.zip",
-        "DownloadLinkTesting":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.3/DragoonMayCry.zip",
-        "DownloadLinkUpdate":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.3/DragoonMayCry.zip"
+        "DownloadLinkInstall":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.5/DragoonMayCry.zip",
+        "DownloadLinkTesting":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.5/DragoonMayCry.zip",
+        "DownloadLinkUpdate":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.5/DragoonMayCry.zip"
     }
 ]
