@@ -3,7 +3,7 @@
         "Author":  "Felscream",
         "Name":  "DragoonMayCry",
         "Punchline":  "A plugin that ranks your performance based on your fundamentals in combat",
-        "Description":  "??",
+        "Description":  "A plugin that tries to add more flavour to combat. You score by dealing damage, and lose points if you are not greeding",
         "ApplicableVersion":  "any",
         "LoadPriority":  0,
         "InternalName":  "DragoonMayCry",
@@ -19,10 +19,10 @@
         "DalamudApiLevel":  10,
         "IsHide":  "False",
         "IsTestingExclusive":  "False",
-        "LastUpdated":  1724629048,
+        "LastUpdated":  1724668633,
         "DownloadCount":  0,
-        "DownloadLinkInstall":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.1/DragoonMayCry.zip",
-        "DownloadLinkTesting":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.1/DragoonMayCry.zip",
-        "DownloadLinkUpdate":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.1/DragoonMayCry.zip"
+        "DownloadLinkInstall":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.2/DragoonMayCry.zip",
+        "DownloadLinkTesting":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.2/DragoonMayCry.zip",
+        "DownloadLinkUpdate":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.0.2/DragoonMayCry.zip"
     }
 ]
