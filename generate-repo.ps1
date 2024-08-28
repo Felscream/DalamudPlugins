@@ -10,16 +10,14 @@ foreach ($plugin in $pluginList) {
   $configFolder = $plugin.configFolder
 
   # Fetch the release data from the Gibhub API
-  $data = Invoke-WebRequest -Uri "https://api.github.com/repos/$($username)/$($repo)/releases"
+  $data = Invoke-WebRequest -Uri "https://api.github.com/repos/$($username)/$($repo)/releases/latest"
   $json = ConvertFrom-Json $data.content
 
-  $latest = $json[0]
-
   # Get data from the api request.
-  $count = $latest.assets[0].download_count
-  $download = $latest.assets[0].browser_download_url
+  $count = $json.assets[0].download_count
+  $download = $json.assets[0].browser_download_url
   # Get timestamp for the release.
-  $time = [Int](New-TimeSpan -Start (Get-Date "01/01/1970") -End ([DateTime]$latest.published_at)).TotalSeconds
+  $time = [Int](New-TimeSpan -Start (Get-Date "01/01/1970") -End ([DateTime]$json.published_at)).TotalSeconds
 
   # Get the config data from the repo.
   $configData = Invoke-WebRequest -Uri "https://raw.githubusercontent.com/$($username)/$($repo)/$($branch)/$($configFolder)/$($repo).json"
