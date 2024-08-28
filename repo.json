@@ -24,6 +24,7 @@
         "DownloadCount":  0,
         "DownloadLinkInstall":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.1.0/DragoonMayCry.zip",
         "DownloadLinkTesting":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.1.0/DragoonMayCry.zip",
-        "DownloadLinkUpdate":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.1.0/DragoonMayCry.zip"
+        "DownloadLinkUpdate":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.1.0/DragoonMayCry.zip",
+        "IconUrl": "https://raw.githubusercontent.com/Felscream/DragoonMayCry/master/images/icon.png"
     }
 ]
