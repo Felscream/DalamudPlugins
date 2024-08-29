@@ -10,14 +10,19 @@ foreach ($plugin in $pluginList) {
   $configFolder = $plugin.configFolder
 
   # Fetch the release data from the Gibhub API
-  $data = Invoke-WebRequest -Uri "https://api.github.com/repos/$($username)/$($repo)/releases/latest"
+  $data = Invoke-WebRequest -Uri "https://api.github.com/repos/$($username)/$($repo)/releases"
   $json = ConvertFrom-Json $data.content
 
+  $latest = $json[0]
+  $count = 0
+  for($i = 0; $i -lt $json.Length; $i++) {
+    $count = $count + $json[$i].assets[0].download_count
+  }
+
   # Get data from the api request.
-  $count = $json.assets[0].download_count
-  $download = $json.assets[0].browser_download_url
+  $download = $latest.assets[0].browser_download_url
   # Get timestamp for the release.
-  $time = [Int](New-TimeSpan -Start (Get-Date "01/01/1970") -End ([DateTime]$json.published_at)).TotalSeconds
+  $time = [Int](New-TimeSpan -Start (Get-Date "01/01/1970") -End ([DateTime]$latest.published_at)).TotalSeconds
 
   # Get the config data from the repo.
   $configData = Invoke-WebRequest -Uri "https://raw.githubusercontent.com/$($username)/$($repo)/$($branch)/$($configFolder)/$($repo).json"
@@ -37,7 +42,7 @@ foreach ($plugin in $pluginList) {
   $config | Add-Member -Name "DownloadLinkInstall" -MemberType NoteProperty -Value $download
   $config | Add-Member -Name "DownloadLinkTesting" -MemberType NoteProperty -Value $download
   $config | Add-Member -Name "DownloadLinkUpdate" -MemberType NoteProperty -Value $download
-  # $config | Add-Member -Name "IconUrl" -MemberType NoteProperty -Value "https://raw.githubusercontent.com/$($username)/$($repo)/$($branch)/icon.png"
+  $config | Add-Member -Name "IconUrl" -MemberType NoteProperty -Value "https://raw.githubusercontent.com/$($username)/$($repo)/$($branch)/images/icon.png"
 
   # Add to the plugin array.
   $pluginsOut += $config
