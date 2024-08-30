@@ -7,7 +7,7 @@
         "ApplicableVersion":  "any",
         "LoadPriority":  0,
         "InternalName":  "DragoonMayCry",
-        "AssemblyVersion":  "0.4.0",
+        "AssemblyVersion":  "0.4.2",
         "RepoUrl":  "https://github.com/Felscream/DragoonMayCry",
         "Tags":  [
                      "dmc",
@@ -20,12 +20,11 @@
         "DalamudApiLevel":  10,
         "IsHide":  "False",
         "IsTestingExclusive":  "False",
-        "LastUpdated":  1724982676,
-        "DownloadCount":  14,
-        "DownloadLinkInstall":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.4.0/DragoonMayCry.zip",
-        "DownloadLinkTesting":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.4.0/DragoonMayCry.zip",
-        "DownloadLinkUpdate":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.4.0/DragoonMayCry.zip",
-        "IconUrl":  "https://raw.githubusercontent.com/Felscream/DragoonMayCry/master/images/icon.png",
-	"Changelog": "Values are now based on your iLvl making the plugin 'usable' in all content. But they may be unbalanced for encounters older than 6.0 due to the stat squish."
+        "LastUpdated":  1725011242,
+        "DownloadCount":  17,
+        "DownloadLinkInstall":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.4.2/DragoonMayCry.zip",
+        "DownloadLinkTesting":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.4.2/DragoonMayCry.zip",
+        "DownloadLinkUpdate":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.4.2/DragoonMayCry.zip",
+        "IconUrl":  "https://raw.githubusercontent.com/Felscream/DragoonMayCry/master/images/icon.png"
     }
 ]
