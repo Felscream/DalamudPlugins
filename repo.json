@@ -1,30 +1,31 @@
 [
-    {
-        "Author":  "Felscream",
-        "Name":  "DragoonMayCry",
-        "Punchline":  "A plugin that ranks your performance based on your fundamentals in combat",
-        "Description":  "A plugin that tries to add more flavour to combat. You score by dealing damage, and lose points if you are not greeding correctly",
-        "ApplicableVersion":  "any",
-        "LoadPriority":  0,
-        "InternalName":  "DragoonMayCry",
-        "AssemblyVersion":  "0.5.1",
-        "RepoUrl":  "https://github.com/Felscream/DragoonMayCry",
-        "Tags":  [
-                     "dmc",
-                     "style",
-                     "dragoon",
-                     "combo",
-                     "cry",
-                     "greed"
-                 ],
-        "DalamudApiLevel":  10,
-        "IsHide":  "False",
-        "IsTestingExclusive":  "False",
-        "LastUpdated":  1725207130,
-        "DownloadCount":  25,
-        "DownloadLinkInstall":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.5.1/DragoonMayCry.zip",
-        "DownloadLinkTesting":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.5.1/DragoonMayCry.zip",
-        "DownloadLinkUpdate":  "https://github.com/Felscream/DragoonMayCry/releases/download/v0.5.1/DragoonMayCry.zip",
-        "IconUrl":  "https://raw.githubusercontent.com/Felscream/DragoonMayCry/master/images/icon.png"
-    }
+  {
+    "Author": "Felscream",
+    "Name": "DragoonMayCry",
+    "Punchline": "A plugin that ranks your performance based on your fundamentals in combat",
+    "Description": "NOTE : available on the maintained Dalamud Plugin repository (testing channel). \n A plugin that tries to add more flavour to combat. You score by dealing damage, and lose points if you are not greeding correctly.",
+    "ApplicableVersion": "any",
+    "LoadPriority": 0,
+    "InternalName": "DragoonMayCry",
+    "AssemblyVersion": "0.5.2",
+    "RepoUrl": "https://github.com/Felscream/DragoonMayCry",
+    "Tags": [
+      "dmc",
+      "style",
+      "dragoon",
+      "combo",
+      "cry",
+      "greed"
+    ],
+    "DalamudApiLevel": 10,
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "LastUpdated": 1725280161,
+    "DownloadCount": 31,
+    "DownloadLinkInstall": "https://github.com/Felscream/DragoonMayCry/releases/download/v0.5.2/DragoonMayCry.zip",
+    "DownloadLinkTesting": "https://github.com/Felscream/DragoonMayCry/releases/download/v0.5.2/DragoonMayCry.zip",
+    "DownloadLinkUpdate": "https://github.com/Felscream/DragoonMayCry/releases/download/v0.5.2/DragoonMayCry.zip",
+    "IconUrl": "https://raw.githubusercontent.com/Felscream/DragoonMayCry/master/images/icon.png",
+    "Changelog": "DmC is now available on the testing channel of the Dalamud Repository. This will be the last release on this external repository. Thank you if you used it. You can still get access to updates on the testing channel."
+  }
 ]
