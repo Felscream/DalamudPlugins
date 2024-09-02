@@ -3,7 +3,7 @@
     "Author": "Felscream",
     "Name": "DragoonMayCry",
     "Punchline": "A plugin that ranks your performance based on your fundamentals in combat",
-    "Description": "NOTE : available on the maintained Dalamud Plugin repository (testing channel). A plugin that tries to add more flavour to combat. You score by dealing damage, and lose points if you are not greeding correctly.",
+    "Description": "NOTE : available on the maintained Dalamud Plugin repository (testing channel). \n A plugin that tries to add more flavour to combat. You score by dealing damage, and lose points if you are not greeding correctly.",
     "ApplicableVersion": "any",
     "LoadPriority": 0,
     "InternalName": "DragoonMayCry",
